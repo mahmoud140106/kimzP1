@@ -1,0 +1,40 @@
+
+.control{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px auto;
+}
+.control label{
+    font-weight: bold;
+    color: #212529;
+}
+.control input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+    color: #495057;
+}
+
+.btn{
+    background-color: #4caf50;
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
